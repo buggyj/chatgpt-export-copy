@@ -68,4 +68,4 @@ ${ue.turndown(n.innerHTML)}
 
 ${e.querySelector("div").innerText}
 
-`});var f=document.createElement("a");f.download=`${document.title}.md`;f.href=URL.createObjectURL(new Blob([T]));f.style.display="none";document.body.appendChild(f);f.click();})();
+`});navigator.clipboard.writeText(T)})();
